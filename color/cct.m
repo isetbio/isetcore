@@ -74,6 +74,8 @@ function Tc = cct(uvs)
     assert(max(abs(err)) < 1e-12)
 %}
 
+% Testing submodule mods.
+
 if notDefined('uvs'),   error('uv coordinates are required');
 elseif (size(uvs, 1) ~= 2), error('uv must be 2xN');
 end
